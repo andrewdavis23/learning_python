@@ -1,0 +1,1 @@
+def always_odd(n):return n-(n%2+1)%2
