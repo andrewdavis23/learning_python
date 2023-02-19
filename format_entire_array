@@ -1,0 +1,4 @@
+# takes an array of 10 numbers and formats to the string
+
+def create_phone_number(n):
+    return '({}{}{}) {}{}{}-{}{}{}{}'.format(*n)
