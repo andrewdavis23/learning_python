@@ -10,7 +10,7 @@ def timer(func):
       result = func(*args, **kwargs)
       # get the total time it took to run, and print
       t_total = time.time() - t_start
-      print('{} took {}s'.format(func.__name__, t_total)
+      print('{} took {}s'.format(func.__name__, t_total))
     return wrapper
             
 def memoize(func):
